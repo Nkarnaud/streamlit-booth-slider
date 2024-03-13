@@ -1,0 +1,27 @@
+[global]
+showWarningOnDirectExecution = true
+
+[logger]
+level = "warning"
+
+[client]
+caching = true
+displayEnabled = true
+showErrorDetails = true
+toolbarMode = "developer"
+showSidebarNavigation = true
+
+
+[server]
+folderWatchBlacklist = []
+headless = false
+runOnSave = true
+address =
+port = 8501
+baseUrlPath = ""
+enableCORS = true
+enableXsrfProtection = true
+maxUploadSize = 200
+maxMessageSize = 200
+enableWebsocketCompression = false
+enableStaticServing = false
